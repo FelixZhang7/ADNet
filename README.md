@@ -58,6 +58,8 @@ The framework of ADNet.
 ![ADNet](./doc/framework.png)
 
 ## Performance
+The models trained by ADNet framework achieved **SOTA** performance in all of COFW, 300W and WFLW datasets.
+
 Table 1. Comparing with state-of-the-art methods on **COFW** by *NME<sub>inter-pupils</sub>*.
 
 | Method    | NME       | FR<sub>10%</sub> | AUC<sub>10%</sub> |
