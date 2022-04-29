@@ -84,7 +84,6 @@ Table 2. Comparing with state-of-the-art methods on **300W** by *NME<sub>inter-p
 | DU-Net    | 2.90           | 5.15               | 3.35        |
 | LUVLi     | 2.76           | 5.16               | 3.23        |
 | AWing     | 2.72           | **4.52**           | 3.07        |
-| --------- | -------------- | ------------------ | ----------- |
 | **ADNet** | **2.53**       | 4.58               | **2.93**    |
 
 Table 3. Comparing with state-of-the-art methods on **WFLW** by *NME<sub>inter-ocular</sub>*.
