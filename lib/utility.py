@@ -327,6 +327,8 @@ def forward_backward(config, train_loader, net_module, net, net_ema, criterions,
     iter_num = 0
     epoch_train_model_time = 0
     epoch_start_time = time.time()
+    if net_module != net:
+        train_loader.sampler.set_epoch(epoch)
     for iter, sample in enumerate(train_loader):
         iter_start_time = time.time()
         # input
